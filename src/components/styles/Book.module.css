@@ -1,0 +1,11 @@
+.item {
+  border: 1px solid goldenrod;
+  width: 20rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
