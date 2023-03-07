@@ -1,32 +1,35 @@
-import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import React, { useState } from 'react';
 import { addBook } from '../redux/books/bookSlice';
+import styles from './styles/Form.module.css';
 
 const Form = () => {
   const dispatch = useDispatch();
-  const [bookTitle, setBookTitle] = useState('');
-  const [bookAuthor, setBookAuthor] = useState('');
+  const [title, setTitle] = useState('');
+  const [author, setAuthor] = useState('');
 
   const handleAddBook = (e) => {
     e.preventDefault();
-    dispatch(addBook({ bookTitle, bookAuthor }));
-    setBookTitle('');
-    setBookAuthor('');
+    dispatch(addBook({ title, author }));
+    setTitle('');
+    setAuthor('');
   };
 
   return (
     <form onSubmit={handleAddBook}>
       <h3>ADD NEW BOOK</h3>
       <input
-        value={bookTitle}
-        onChange={(e) => setBookTitle(e.target.value)}
+        className={styles.form}
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
         type="text"
         placeholder="Book Title"
         required
       />
       <input
-        value={bookAuthor}
-        onChange={(e) => setBookAuthor(e.target.value)}
+        className={styles.form}
+        value={author}
+        onChange={(e) => setAuthor(e.target.value)}
         type="text"
         placeholder="Book Author"
         required
