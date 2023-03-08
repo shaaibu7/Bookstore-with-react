@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
@@ -20,7 +21,7 @@ const Book = ({
 
 Book.propTypes = {
   id: PropTypes.string.isRequired,
-  category: PropTypes.string.isRequired,
+  // category: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
 };

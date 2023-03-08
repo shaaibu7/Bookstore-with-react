@@ -11,15 +11,15 @@ const bookSlice = createSlice({
   reducers: {
     addBook: (state, action) => {
       const {
-        title, author, category,
+        title, author,
       } = action.payload;
       const newBook = {
         item_id: `item${state.bookList.length + 1}`,
         title,
         author,
-        category,
       };
-      state.bookList.push(newBook);
+      // eslint-disable-next-line no-param-reassign
+      state.bookList = [...state.bookList, newBook];
     },
     removeBook: (state, action) => {
       const bookId = action.payload;
