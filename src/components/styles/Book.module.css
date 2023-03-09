@@ -1,11 +1,88 @@
 .item {
-  border: 1px solid goldenrod;
-  width: 20rem;
-  padding: 1rem;
+  border: 1px solid grey;
+  width: 80%;
+  padding: 2.5rem;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+  background-color: white;
+  margin-top: 1.5rem;
+}
+
+.display {
+  width: 15rem;
 }
 
 button {
   padding: 0.5rem;
   border-radius: 5px;
+  background-color: white;
+  border: none;
+}
+
+.contain {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.Oval {
+  width: 4.25rem;
+  height: 4.25rem;
+  border: 15px solid #379cf6;
+  border-left-color: #c4c4c4;
+  border-radius: 50%;
+  -webkit-transform: rotate(25deg);
+  transform: rotate(140deg);
+}
+
+.chapterContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7rem;
+  padding-top: 1.5rem;
+}
+
+.chapterBtn {
+  background-color: #379cf6;
+  padding: 1rem;
+  width: 8rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.bar {
+  background-color: grey;
+  height: 10rem;
+  width: 0.1rem;
+}
+
+.completion {
+  font-size: 2.5rem;
+}
+
+.completed {
+  font-size: 1rem;
+}
+
+.chapter {
+  font-size: 1.3rem;
+}
+
+.gery {
+  width: 0.1rem;
+  height: 1rem;
+  background-color: grey;
+  margin-top: 0.4rem;
+}
+
+.btns {
+  display: flex;
+  margin-left: -3.5%;
+}
+
+.bookName {
+  font-size: 1.8rem;
 }

@@ -1,7 +1,8 @@
 .header {
   display: flex;
-  justify-content: center;
-  column-gap: 3rem;
+  justify-content: space-between;
+  padding-left: 9.5rem;
+  background-color: white;
 }
 
 .nav {
@@ -12,4 +13,15 @@
 
 a {
   text-decoration: none;
+}
+
+.head {
+  display: flex;
+  column-gap: 3rem;
+}
+
+.user {
+  padding-right: 9rem;
+  padding-top: 1rem;
+  width: 3rem;
 }
