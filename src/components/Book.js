@@ -19,9 +19,9 @@ const Book = ({
     <div className={styles.item}>
       <div className={styles.display}>
       <div className={styles.info}>
-      <p>{category}</p>
+      <p className={styles.school}>{category}</p>
       <h3 className={styles.bookName}>{title}</h3>
-      <p>{author}</p>
+      <p className={styles.author}>{author}</p>
       </div>
       <div className={styles.btns}>
       <button type='button'>Comments</button>
@@ -44,9 +44,9 @@ const Book = ({
 
       <div className={styles.bar}></div>
       <div className={styles.chapterContainer}>
-        <div className={styles.chapter}>Current Chapter</div>
+        <div className={styles.chapterone}>CURRENT CHAPTER</div>
         <div className={styles.chapter}>Chapter Twelve</div>
-        <div className={styles.chapterBtn}>Update Progress</div>
+        <div className={styles.chapterBtn}><span className={styles.update}>UPDATE PROGRESS</span></div>
       </div>
     </div>
   );

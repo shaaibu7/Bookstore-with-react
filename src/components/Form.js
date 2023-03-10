@@ -52,7 +52,7 @@ const Form = () => {
         placeholder="Book Author"
         required
       />
-      <button type="submit" className={styles.btnForm}>Add Book</button>
+      <button type="submit" className={styles.btnForm}>ADD BOOK</button>
     </form>
   );
 };
