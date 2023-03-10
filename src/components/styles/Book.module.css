@@ -1,11 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .item {
-  border: 1px solid goldenrod;
-  width: 20rem;
-  padding: 1rem;
+  width: 80%;
+  padding: 2.5rem;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+  background-color: white;
+  margin-top: 1.5rem;
+}
+
+.display {
+  width: 15rem;
 }
 
 button {
   padding: 0.5rem;
   border-radius: 5px;
+  background-color: white;
+  border: none;
+  color: #4386bf;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.contain {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-left: 11rem;
+}
+
+.Oval {
+  width: 4.25rem;
+  height: 4.25rem;
+  border: 10px solid #379cf6;
+  border-left-color: #c4c4c4;
+  border-radius: 50%;
+  -webkit-transform: rotate(25deg);
+  transform: rotate(140deg);
+}
+
+.chapterContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7rem;
+  padding-top: 1.5rem;
+  margin-right: 9rem;
+}
+
+.chapterBtn {
+  background-color: #0290ff;
+  width: 11.5rem;
+  height: 2.063rem;
+  padding: 0.438rem 1.188rem 0 1.375rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.update {
+  color: #fff;
+  width: 8.938rem;
+  height: 1.125rem;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.bar {
+  height: 4.375rem;
+  margin-top: 2rem;
+  border: 1px solid #e8e8e8;
+}
+
+.completion {
+  font-size: 2.5rem;
+}
+
+.completed {
+  font-size: 1rem;
+}
+
+.chapter {
+  width: 13.25rem;
+  height: 1.313rem;
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
+.chapterone {
+  font-family: "Roboto Slab", serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8d8181;
+}
+
+.gery {
+  width: 0.1rem;
+  height: 1rem;
+  background-color: #e8e8e8;
+  margin-top: 0.4rem;
+}
+
+.btns {
+  display: flex;
+  margin-left: -1.5%;
+}
+
+.bookName {
+  width: 12.313rem;
+  height: 1.813rem;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+p {
+  margin: 3px;
+}
+
+h3 {
+  margin: 1px;
+}
+
+.school {
+  width: 3.063rem;
+  height: 1.125rem;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.author {
+  width: 6.688rem;
+  height: 1.188rem;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
 }

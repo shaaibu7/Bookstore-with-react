@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .header {
   display: flex;
-  justify-content: center;
-  column-gap: 3rem;
+  justify-content: space-between;
+  padding-left: 9.5rem;
+  background-color: white;
 }
 
 .nav {
@@ -12,4 +16,33 @@
 
 a {
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.head {
+  display: flex;
+  column-gap: 3rem;
+}
+
+.user {
+  padding-right: 9rem;
+  padding-top: 1rem;
+  width: 3rem;
+}
+
+h1 {
+  color: #0290ff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875rem;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
 }

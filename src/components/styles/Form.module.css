@@ -1,4 +1,27 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+  column-gap: 7rem;
+  flex-wrap: wrap;
+}
+
 .form {
-  padding: 0.5rem;
-  margin-right: 0.8rem;
+  width: 30rem;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.head {
+  padding-top: 2.5rem;
+}
+
+.btnForm {
+  background-color: #379cf6;
+  width: 13rem;
+  height: 4rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+  color: #fff;
 }

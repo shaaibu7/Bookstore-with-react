@@ -32,10 +32,12 @@ const Books = () => {
     display = <h3>No books to display...</h3>;
   }
   return (
-    <section className={styles.books}>
-      {display}
+    <>
+      <section className={styles.books}>
+        {display}
+      </section>
       <Form />
-    </section>
+    </>
   );
 };
 

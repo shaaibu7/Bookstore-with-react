@@ -34,8 +34,8 @@ const Form = () => {
   };
 
   return (
-    <form onSubmit={onFormSubmit}>
-      <h3>ADD NEW BOOK</h3>
+    <form onSubmit={onFormSubmit} className={styles.formContainer}>
+      <h3 className={styles.head}>ADD NEW BOOK</h3>
       <input
         className={styles.form}
         value={title}
@@ -52,7 +52,7 @@ const Form = () => {
         placeholder="Book Author"
         required
       />
-      <button type="submit">Add Book</button>
+      <button type="submit" className={styles.btnForm}>ADD BOOK</button>
     </form>
   );
 };
