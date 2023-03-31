@@ -90,7 +90,7 @@ npm start
 
 ### Preview
 
-Coming soon...
+[`Site preview`](https://bookstore-tracker.netlify.app/)
 
 <!-- <img src="" alt="logo" width="140"  height="auto" /> -->
 <br/>
