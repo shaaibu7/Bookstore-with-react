@@ -29,7 +29,7 @@
 
 # 📖 Bookstore app with React <a name="about-project"></a>
 
-This is a web application that helps users manage their books and keep track of their reading progress.
+This is a web application that helps users manage their books and keep track of their reading progress, users can also remove books from the store.
 
 ## 🛠 Built With <a name="built-with"></a>
 
